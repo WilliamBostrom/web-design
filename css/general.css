@@ -59,6 +59,8 @@ html {
   /* procent av användares webbläsares font-size inställning */
   font-size: 62.5%;
   overflow-x: hidden;
+  /* SCROLL BEHAVIOR SKA VARA PÅ HTML (funkar inte på safari 2021) */
+  scroll-behavior: smooth;
 }
 
 body {
